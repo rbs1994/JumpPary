@@ -1,0 +1,68 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+    overflow: auto;
+	background-color: grey;
+}
+
+@font-face{
+    font-family: DiseaseInvader;
+    src: url(disease.ttf)
+}
+
+#container_ctrl{
+    position: relative;
+    left:60px;
+    top:-400px;
+    width:200px;
+    height: 150px;
+    font-family: DiseaseInvader;
+    font-size: 40px;
+    color: white;
+    float: left;
+}
+
+#container_info{
+    position: relative;
+    top:-300px;
+    width: 200px;
+    height: 800px;
+	right: 100px;
+    font-family: DiseaseInvader;
+    font-size: 20px;
+    color: white;
+    float: right;
+}
+footer{
+    position: relative;
+    text-align: center;
+    font-family: DiseaseInvader;
+    font-size: 20px;
+    color:white;
+    top: 100px;
+}
+
+#canvas{
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    top: 60%;
+	z-index: 1;
+	
+}
+
+#punts{
+	left: 30%;
+	top: 37%;
+	z-index: 3;
+	position: relative;
+	visibility: hidden;
+	font-family: DiseaseInvader;
+	color:white;
+}
+
+
+
+
